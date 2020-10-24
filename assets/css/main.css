@@ -243,6 +243,9 @@ footer #social_div a img{
     footer .row > div{
         margin-bottom: 15px;
     }
+    .skill_cards p{
+        text-align: center;
+    }
 }
 @media (max-width: 366px) {
 }
