@@ -4,10 +4,12 @@
     --txt: #272727;
     --blu: #141C3A;
 }
+html{
+    scroll-behavior: smooth !important;
+}
 body{
     font-family: 'Poppins', sans-serif !important;
     line-height: 1.2 !important;
-    scroll-behavior: smooth !important;
 }
 .bg_blu{
     background-color: var(--blu);
