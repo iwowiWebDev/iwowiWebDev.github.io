@@ -7,6 +7,7 @@
 body{
     font-family: 'Poppins', sans-serif !important;
     line-height: 1.2 !important;
+    scroll-behavior: smooth !important;
 }
 .bg_blu{
     background-color: var(--blu);
