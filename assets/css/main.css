@@ -8,6 +8,7 @@ html{
     scroll-behavior: smooth !important;
 }
 body{
+    background-color: #1b1e21;
     font-family: 'Poppins', sans-serif !important;
     line-height: 1.2 !important;
 }
