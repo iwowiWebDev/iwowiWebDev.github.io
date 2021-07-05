@@ -52,17 +52,49 @@
                     <h2 id="page_title">Iwo Witalinski</h2>
                 </div>
                 <div class="title_description_container" id="title_description">
-                    <p>Langjähriger Webentwickler aus Paderborn. <br>
-                        Informatik-Student an der Universität Pderborn <br>
-                        HTML, CSS, JavaScript, PHP, SQL, SEO, WordPress
+                    <p>Langjähriger Softwareentwickler aus Paderborn
                     </p>
+                    <div class="skill_buttons">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>React</span>
+                        <span>ASP.NET</span>
+                        <span>SQL</span>
+                        <span>Git</span>
+                        <span>SEO</span>
+                        <span>WordPress</span>
+                    </div>
                 </div>
             </section>
 
             <section>
                 <h4 id="h4_aboutme">Über mich</h4>
-                <div class="section_text_container">
-                    <p>Ich bin Iwo Witalinski, 20 Jahre alt und komme aus Paderborn.
+                <div class="section_text_container about_me_container">
+                    <div class="side_information_container">
+                        <div>
+                            <img src="assets/images/profile.png">
+                            <p>Iwo Witalinski <br> 21 Jahre</p>
+                        </div>
+                        <div>
+                            <img src="assets/images/pin.png">
+                            <p>Paderborn</p>
+                        </div>
+                        <div>
+                            <img src="assets/images/globe-alt.png">
+                            <p>Deutsch, Englisch <br> Französisch, Polnisch</p>
+                        </div>
+                        <div>
+                            <img src="assets/images/flag-alt.png">
+                            <div>
+                                <p>Master Prak. Informatik <br> <span>Fernuni Hagen</span></p>
+                                <p>Bachelor Informatik <br> <span>Universität Paderborn</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="about_me_description">Ich bin Iwo Witalinski, 21 Jahre alt und komme aus Paderborn.
                         Schon in der Schule habe ich mich sehr stark für das Internet und Websiten
                         interessiert und brachte mir HTML und CSS bei. Mit der Zeit erlernte ich
                         weitere wichtige Programmiersprachen wie JavaScript und PHP. <br>
@@ -112,31 +144,83 @@
             <section>
                 <h4 id="h4_skills">Meine Projekte</h4>
                 <div class="section_text_container">
-                    <div class="projects_cards row d-flex flex-row">
-                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-between ">
-                            <div class="d-flex flex-column align-items-center">
-                                <img src="assets/images/tictactoe.PNG">
-                                <h6>TicTacToe Ki</h6>
-                                <p>Ein TicTacToe Spiel, bei dem man als Mensch gegen eine Computer-KI spielt. Die KI basiert auf dem Minimax-Algorithmus mit Alpha-Beta-Pruning.
-                                    Programmiert in HTML, CSS, JavaScript.
-                                </p>
+                    <div class="projects_cards row d-flex flex-row justify-content-start">
+                        <div class="col-md-4 projects_card_container">
+                            <div class=" d-flex flex-column justify-content-between projects_card">
+                                <div class="d-flex flex-column projects_card_top">
+                                    <h6>TicTacToe</h6>
+                                    <p>Tic-Tac-Toe-Spiel mit automatisierten Minimax-PC-Gegner.
+                                    </p>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between projects_card_bottom">
+                                    <p>TypeScript</p>
+                                    <a href="#" style="color: var(--prim); font-weight: 600">Öffnen</a>
+                                </div>
                             </div>
-                            
-                            <a href="#" class="btn btn-primary filled_button">Vorschau</a>
                         </div>
-                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-between ">
-                            <div class="d-flex flex-column align-items-center">
-                                <img src="assets/images/Spielansicht_Screenshot_2.png">
-                                <h6>Spiel der Amazonen</h6>
-                                <p>Das Spiel der Amazonen mit Server und Minimax-KI-Spielern, die vollautomatisiert gegeneinander spielen.
-                                    Programmiert in Java.
-                                </p>
+
+                        <div class="col-md-4 projects_card_container">
+                            <div class="d-flex flex-column justify-content-between projects_card">
+                                <div class="d-flex flex-column projects_card_top">
+                                    <h6>Softwareprojekt Uni</h6>
+                                    <p>Das Spiel der Amazonen mit Webserver und Minimax-KI-Spielern,
+                                        die vollautomatisiert gegeneinander spielen.
+                                    </p>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between projects_card_bottom">
+                                    <p>Java</p>
+                                    <a href="#" style="color: var(--prim); font-weight: 600">Öffnen</a>
+                                </div>
                             </div>
-                            
-                            <a href="#" class="btn btn-primary filled_button">Vorschau</a>
                         </div>
-                    
+
+                        <div class="col-md-4 projects_card_container">
+                            <div class="d-flex flex-column justify-content-between projects_card">
+                                <div class="d-flex flex-column projects_card_top">
+                                    <h6>organize</h6>
+                                    <p>Programmierung eines Dashboards für Todos, Termine, News, Wetter mit Datenbankanbindung.
+                                    </p>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between projects_card_bottom align-items-end">
+                                    <p>React TypeScript ASP.NET</p>
+                                    <a href="#" style="color: var(--prim); font-weight: 600">Öffnen</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 projects_card_container">
+                            <div class="d-flex flex-column justify-content-between projects_card">
+                                <div class="d-flex flex-column projects_card_top">
+                                    <h6>Quiz-App</h6>
+                                    <p>Programmierung einer Quiz-App mit Datenbankanbindung
+                                    </p>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between projects_card_bottom align-items-end">
+                                    <p>React TypeScript <br> PHP SQL</p>
+                                    <a href="#" style="color: var(--prim); font-weight: 600">Öffnen</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 projects_card_container">
+                            <div class="d-flex flex-column justify-content-between projects_card">
+                                <div class="d-flex flex-column projects_card_top">
+                                    <h6>Kundenplattform</h6>
+                                    <p>Programmierung einer kleinen Kundenplattform zur Einsicht in den aktuellen Entwicklungsstand im Rahmen
+                                        eines Praktikums
+                                    </p>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between projects_card_bottom align-items-end">
+                                    <p>JavaScript PHP JSON</p>
+                                    <a href="#" style="color: var(--prim); font-weight: 600"></a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+
+
+
                 </div>
             </section>
 
