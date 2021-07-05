@@ -171,6 +171,21 @@ section p{
     align-items: flex-start;
     justify-content: space-between;
 }
+
+@media (min-width: 768px) {
+    .projects_card_container{
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+@media (min-width: 1024px) {
+    .projects_card_container{
+        flex: 0 0 33.33333333% !important;
+        max-width: 33.3333333% !important;
+    }
+}
+
+
 .side_information_container{
     display: flex;
     flex-direction: column;
