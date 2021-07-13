@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49d44ccf-cea7-4e0f-ba85-dcf64289c31f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +83,9 @@
       <workItem from="1609443587783" duration="4000" />
       <workItem from="1625429362329" duration="752000" />
       <workItem from="1625475556415" duration="4427000" />
-      <workItem from="1625482213396" duration="3613000" />
+      <workItem from="1625482213396" duration="3776000" />
+      <workItem from="1625559717065" duration="637000" />
+      <workItem from="1625676297375" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="Blubb">
       <created>1625429677318</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625491726508</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix responsive size of projects_cards">
+      <created>1625492793480</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625492793480</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Blubb" />
     <MESSAGE value="NEXT VERSION BABY" />
-    <option name="LAST_COMMIT_MESSAGE" value="NEXT VERSION BABY" />
+    <MESSAGE value="Fix responsive size of projects_cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix responsive size of projects_cards" />
   </component>
 </project>
